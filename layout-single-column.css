@@ -2233,6 +2233,7 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
   background-color: transparent;
   border: 1;
   border-radius: 25%;
+  border-width: 3px;
 
   /* It's inlined so we have to use !important */
   /* stylelint-disable-next-line */
