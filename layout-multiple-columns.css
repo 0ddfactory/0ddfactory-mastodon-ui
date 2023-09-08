@@ -1299,8 +1299,8 @@ body.embed .detailed-status,
 .layout-multiple-columns .account-card__title__avatar img,
 .layout-multiple-columns .account__avatar > img,
 .layout-multiple-columns .column > .scrollable .status__avatar img {
-  border: 0;
-  border-radius: 50%;
+  border: 1;
+  border-radius: 25%;
   box-shadow: rgb(255 255 255 / 0.03) 0 0 2px inset;
 }
 
@@ -2253,7 +2253,8 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
 
 .layout-multiple-columns .account__header__bar .avatar .account__avatar {
   background-color: transparent;
-  border: 0;
+  border: 1;
+  border-radius: 25%;
 
   /* It's inlined so we have to use !important */
   /* stylelint-disable-next-line */
