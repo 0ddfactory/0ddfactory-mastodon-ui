@@ -4,26 +4,26 @@
 /* CSS variables */
 :root {
   /* Brand colors */
-  --color-brand-mastodon: #6364ff;
+  --color-brand-mastodon: #C3C5D4;
   --color-brand-mastodon-links: #C3C5D4;
   --color-brand-mastodon-bg: #212123;
-  --color-brand-mastodon-dim: #717c9b;
-  --color-brand-mastodon-mud: rgb(39 44 64 / .5);
-  --color-brand-mastodon-dark: #232543;
-  --color-brand-mastodon-threaded-line: #434264;
+  --color-brand-mastodon-dim: #ABACB7;
+  --color-brand-mastodon-mud: #272729;
+  --color-brand-mastodon-dark: #121213;
+  --color-brand-mastodon-threaded-line: #ABACB7;
   --color-brand-mastodon-text-light: #8493a7;
 
   /* Colors */
   /* Note: Remember to search for the DIM hex
      and replace it inside the SVG icons if you decide to change it */
   --color-bg: var(--color-brand-mastodon-bg);
-  --color-bg-75: #212123;
+  --color-bg-75: #212123bf;
   --color-fg: #fff;
-  --color-border: #414143;
+  --color-border: #2c2c2f;
   --color-dim: var(--color-brand-mastodon-dim);
   --color-accent: var(--color-brand-mastodon-links);
   --color-accent-dark: var(--color-brand-mastodon);
-  --color-accent-dark-50: #595aff80;
+  --color-accent-dark-50: #C3C5D480;
   --color-green: #00ba7c;
   --color-red: #f91880;
   --color-red-75: #f91880bf;
@@ -40,11 +40,11 @@
   --color-dark: var(--color-brand-mastodon-dark);
   --color-thread-line: var(--color-brand-mastodon-threaded-line);
   --color-topaz: #dadaf3;
-  --color-light-purple: #9baec8;
+  --color-light-purple: #ABADB9;
   --color-lighter-purple: #a5b8d3;
   --color-dark-electric-blue: #576078;
-  --color-button-text: #f7f9f9;
-  --color-ghost-button-text: var(--color-button-text);
+  --color-button-text: #212123;
+  --color-ghost-button-text: #C3C5D4;
   --color-verified: #79bd9a;
   --color-destructive: #df405a;
   --color-light-fuchsia-pink: #ff8cfd;
@@ -1520,7 +1520,7 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
 
 /* Icon buttons */
 .layout-single-column .icon-button {
-  color: var(--color-dim);
+  color: var(#717c9b);
 }
 
 /* Hide/Show media button */
@@ -2204,6 +2204,7 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
   line-height: 24px;
   margin-bottom: var(--gap-default);
   text-transform: unset;
+  color: var(--color-brand-mastodon-dim);
 }
 
 .layout-single-column .getting-started__trends {
@@ -2228,6 +2229,7 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
   border: 1;
   border-radius: 25%;
   border-width: 5px;
+  border-color: #212123;
 
   /* It's inlined so we have to use !important */
   /* stylelint-disable-next-line */
