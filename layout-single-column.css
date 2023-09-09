@@ -5,8 +5,8 @@
 :root {
   /* Brand colors */
   --color-brand-mastodon: #6364ff;
-  --color-brand-mastodon-links: #858afa;
-  --color-brand-mastodon-bg: #1e2028;
+  --color-brand-mastodon-links: #C3C5D4;
+  --color-brand-mastodon-bg: #212123;
   --color-brand-mastodon-dim: #717c9b;
   --color-brand-mastodon-mud: rgb(39 44 64 / .5);
   --color-brand-mastodon-dark: #232543;
@@ -17,9 +17,9 @@
   /* Note: Remember to search for the DIM hex
      and replace it inside the SVG icons if you decide to change it */
   --color-bg: var(--color-brand-mastodon-bg);
-  --color-bg-75: #1e2028bf;
+  --color-bg-75: #212123;
   --color-fg: #fff;
-  --color-border: #38384d;
+  --color-border: #414143;
   --color-dim: var(--color-brand-mastodon-dim);
   --color-accent: var(--color-brand-mastodon-links);
   --color-accent-dark: var(--color-brand-mastodon);
