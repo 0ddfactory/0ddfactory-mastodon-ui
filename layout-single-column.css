@@ -2209,6 +2209,7 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
   line-height: 24px;
   margin-bottom: var(--gap-default);
   text-transform: unset;
+  color: var(--color-brand-mastodon-dim);
 }
 
 .layout-single-column .getting-started__trends {
