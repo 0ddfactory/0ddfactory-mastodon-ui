@@ -6,9 +6,9 @@
   /* Brand colors */
   --color-brand-mastodon: #C3C5D4;
   --color-brand-mastodon-links: #C3C5D4;
-  --color-brand-mastodon-bg: #212123;
+  --color-brand-mastodon-bg: #1b1b1d;
   --color-brand-mastodon-dim: #ABACB7;
-  --color-brand-mastodon-mud: #272729;
+  --color-brand-mastodon-mud: #2b2b2b;
   --color-brand-mastodon-dark: #121213;
   --color-brand-mastodon-threaded-line: #ABACB7;
   --color-brand-mastodon-text-light: #8493a7;
@@ -17,7 +17,7 @@
   /* Note: Remember to search for the DIM hex
      and replace it inside the SVG icons if you decide to change it */
   --color-bg: var(--color-brand-mastodon-bg);
-  --color-bg-75: #212123bf;
+  --color-bg-75: #1b1b1dbf;
   --color-fg: #fff;
   --color-border: #2c2c2f;
   --color-dim: var(--color-brand-mastodon-dim);
@@ -43,7 +43,7 @@
   --color-light-purple: #ABADB9;
   --color-lighter-purple: #a5b8d3;
   --color-dark-electric-blue: #576078;
-  --color-button-text: #212123;
+  --color-button-text: #1b1b1b;
   --color-ghost-button-text: #C3C5D4;
   --color-verified: #79bd9a;
   --color-destructive: #df405a;
@@ -51,8 +51,8 @@
   --color-hashtag: var(--color-accent);
   --color-mention: var(--color-accent);
   --color-link: var(--color-accent);
-  --color-bg-compose-form: rgb(39 44 64 / .4);
-  --color-bg-compose-form-focus: rgb(39 44 64 / .8);
+  --color-bg-compose-form: #2b2b2b;
+  --color-bg-compose-form-focus: #3b3b3b;
 
   /* In the original UI this color is lighten($ui-base-color, 12%) */
   --color-outer-space: #42485a;
@@ -1861,7 +1861,85 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
   overflow: visible;
   padding-bottom: calc(var(--gap-default) + 4px);
   padding-left: var(--gap-default);
-  padding-right: calc(var(--gap-default) * 1.5);
+  padding-right: calc(var(--gap-default) * 1.5);.status__display-name,
+.layout-single-column .notification.notification-favourite .status__info .status__display-name {
+  pointer-events: none;
+}
+
+/* Hack to show follow notification more minimal way */
+.layout-single-column .notification.notification-admin-report .notification__report,
+.layout-single-column .notification.notification-admin-sign-up .account__wrapper,
+.layout-single-column .notification.notification-update .account__wrapper,
+.layout-single-column .notification.notification-follow .account__wrapper {
+  position: relative;
+}
+
+.layout-single-column .notification.notification-admin-report .account__avatar-overlay-overlay {
+  top: calc(-1 * calc(var(--size-avatar-small) + var(--gap-default) + 4px));
+}
+
+/* Hack to show follow notification more minimal way */
+.layout-single-column .notification.notification-poll .display-name,
+.layout-single-column .notification.notification-update .display-name__html,
+.layout-single-column .notification.notification-update .display-name__account,
+.layout-single-column .notification.notification-admin-sign-up .display-name__html,
+.layout-single-column .notification.notification-admin-sign-up .display-name,
+.layout-single-column .notification.notification-follow .display-name__html {
+  visibility: hidden;
+}
+
+.layout-single-column .notification.notification-update .account__avatar-wrapper,
+.layout-single-column .notification.notification-admin-sign-up .account__avatar-wrapper,
+.layout-single-column .notification.notification-follow .account__avatar-wrapper,
+.layout-single-column .notification .account__avatar-overlay {
+  left: calc(var(--size-avatar-small) + var(--gap-default) + 18px);
+  margin-top: calc(-1 * calc(var(--size-avatar-small) + var(--gap-default)));
+  position: absolute;
+  top: 4px;
+}
+
+.layout-single-column .notification.notification-admin-report .account__avatar-overlay {
+  margin-top: 0;
+  top: 0;
+}
+
+.layout-single-column .notification.notification-status .notification__message > span {
+  display: none;
+}
+
+.layout-single-column .notification.notification-follow .verified-badge,
+.layout-single-column .notification.notification-admin-sign-up .account__contents,
+.layout-single-column .notification.notification-follow .account__contents,
+.layout-single-column .notification.notification-follow .display-name,
+.layout-single-column .notification.notification-admin-sign-up .display-name + span,
+.layout-single-column .notification.notification-follow .display-name + span,
+.layout-single-column .notification.notification-favourite .status__wrapper-direct .status__prepend,
+.layout-single-column .notification.notification-reblog .display-name,
+.layout-single-column .notification.notification-favourite .display-name {
+  display: none;
+}
+
+/* Minimal boost notification fix */
+.layout-single-column .notification.notification-reblog .notification__message > span {
+  margin-top: calc(var(--size-avatar-small) + calc(var(--gap-default) / 2));
+}
+
+/* Minimal follow notification fix */
+.layout-single-column .notification.notification-follow .notification__message > span {
+  margin-top: calc(calc(var(--size-avatar-small) + calc(var(--gap-default) / 2)) + 6px);
+}
+
+.layout-single-column .notification.notification.notification-admin-sign-up .account__relationship,
+.layout-single-column .notification.notification-follow .account__relationship {
+  transform: translateY(-8px);
+}
+
+/* stylelint-disable-next-line */
+.layout-single-column .notification.notification-follow .account__avatar-wrapper {
+  top: 6px;
+}
+
+/* Minimal fav notification fix */
   padding-top: calc(var(--gap-default) + 4px);
   transition: all 100ms;
 }
@@ -2229,7 +2307,7 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
   border: 1;
   border-radius: 25%;
   border-width: 5px;
-  border-color: #212123;
+  border-color: var(--color-brand-mastodon-bg);
 
   /* It's inlined so we have to use !important */
   /* stylelint-disable-next-line */
