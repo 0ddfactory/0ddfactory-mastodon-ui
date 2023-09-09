@@ -8,4 +8,5 @@ TODO:
 * ???
 * profit
 
-![image](https://github.com/0ddfactory/mastodon-0dd-ui/assets/25939455/d7fc9a2c-4de5-413f-9b62-d9688c250906)
+![image](https://github.com/0ddfactory/mastodon-0dd-ui/assets/25939455/8c43dcc7-b3ce-48fe-86a5-47dd68ffa65f)
+
