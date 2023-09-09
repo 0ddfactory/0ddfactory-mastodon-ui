@@ -1,8 +1,9 @@
 0ddfactory UI for Mastodon  
-
+ 
 TODO:
-* Potential color improvements
+* potential color improvements
 * switch nav/compose sides back to default
+* mayhaps change very professional readme
 * ???
 * profit
 
