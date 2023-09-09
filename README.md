@@ -14,6 +14,6 @@ TODO:
 * multi-column ui changes
 * mayhaps change very professional readme
 * ???
-* profit  
+* profit (not really this is free lmao)
   
 ![image](https://github.com/0ddfactory/mastodon-0dd-ui/assets/25939455/0867a78e-8b43-41c7-aab9-8061e9986649)
