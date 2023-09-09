@@ -1,6 +1,6 @@
 0ddfactory UI for Mastodon  
 
-Done:
+DONE:
 * Change color scheme to match neutral Material You colors.
 * Switch navigation and compose columns back to default mastodon order as this is not meant to replicate twitter.
 * Change mastodon branding icon to generic greeting above nav panel.
