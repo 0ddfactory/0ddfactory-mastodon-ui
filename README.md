@@ -8,6 +8,7 @@ DONE:
 * Change user icons to be squircle shaped like the mastodon mobile app
 * Made pfp border thicker and match bg
 * Disabled flex grow for compositional panel to avoid timeline uncentering and set both side panels to fixed size
+* Make floating video player header/footer transparent
 
 TODO:
 * potential color improvements
