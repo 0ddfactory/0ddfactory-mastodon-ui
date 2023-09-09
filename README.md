@@ -1,12 +1,14 @@
 0ddfactory UI for Mastodon  
+The primary goal of this theme is to mimick the material you mastodon themes in the mobile app and its forks like megalodon.
 
 DONE:
 * Change color scheme to match neutral Material You colors.
 * Switch navigation and compose columns back to default mastodon order as this is not meant to replicate twitter.
 * Change mastodon branding icon to generic greeting above nav panel and hid generic server message above banner.
 * Change user icons to be squircle shaped like the mastodon mobile app
-* Disabled flex grow for compositional panel to avoid timeline uncentering
-* 
+* Made pfp border thicker and match bg
+* Disabled flex grow for compositional panel to avoid timeline uncentering and set both side panels to fixed size
+
 TODO:
 * potential color improvements
 * multi-column ui changes
