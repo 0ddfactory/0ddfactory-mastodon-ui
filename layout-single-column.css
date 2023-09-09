@@ -3408,8 +3408,9 @@ body.embed .button.logo-button:hover,
 }
 
 /* hide background of video player header/footer */
-.picture-in-picture__footer {
+.picture-in-picture__footer, .picture-in-picture__header {
    background: transparent;
+
 }
 
 /* Exception for your own profile media gallery */
