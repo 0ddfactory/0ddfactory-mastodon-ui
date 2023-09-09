@@ -4,22 +4,22 @@
 /* CSS variables */
 :root {
   /* Brand colors */
-  --color-brand-mastodon: #595aff;
-  --color-brand-mastodon-links: #8c8dff;
-  --color-brand-mastodon-bg: #1e2028;
+  --color-brand-mastodon: #6364ff;
+  --color-brand-mastodon-links: #C3C5D4;
+  --color-brand-mastodon-bg: #212123;
   --color-brand-mastodon-dim: #717c9b;
   --color-brand-mastodon-mud: #272c40;
   --color-brand-mastodon-dark: #232543;
   --color-brand-mastodon-threaded-line: #434264;
   --color-brand-mastodon-text-light: #8493a7;
-
+  
   /* Colors */
   /* Note: Remember to search for the DIM hex
      and replace it inside the SVG icons if you decide to change it */
   --color-bg: var(--color-brand-mastodon-bg);
-  --color-bg-75: #1e2028bf;
+  --color-bg-75: #212123;
   --color-fg: #fff;
-  --color-border: #38384d;
+  --color-border: #414143;
   --color-dim: var(--color-brand-mastodon-dim);
   --color-accent: var(--color-brand-mastodon-links);
   --color-accent-dark: var(--color-brand-mastodon);
