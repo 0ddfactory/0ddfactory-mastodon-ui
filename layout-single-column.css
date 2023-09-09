@@ -2281,7 +2281,7 @@ body.embed .button.logo-button,
 }
 
 .layout-single-column .account__header__tabs__buttons .icon-button {
-  color: var(--color-light-text);
+  color: var(--color-brand-mastodon-dim);
 }
 
 /* Fix focus overflow for 4.1.4-nightly */
