@@ -1090,6 +1090,11 @@ body.embed .status__content a,
   color: var(--color-light-purple);
 }
 
+/* Banner Round Corners */
+.layout-single-column .server-banner__hero {
+  border-radius: 25px;
+}
+
 /* White things */
 .layout-single-column .compose-form__poll-wrapper select,
 .layout-single-column .actions-modal ul li:not(:empty) a,
