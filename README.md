@@ -11,6 +11,7 @@ DONE:
 
 TODO:
 * potential color improvements
+* potentially change icons on navbar to be more consistent
 * multi-column ui changes
 * mayhaps change very professional readme
 * ???
