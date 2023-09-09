@@ -1090,6 +1090,10 @@ body.embed .status__content a,
   color: var(--color-light-purple);
 }
 
+.server-banner__introduction{
+  display: none;
+}
+
 /* Banner Round Corners */
 .layout-single-column .server-banner__hero {
   border-radius: 25px;
