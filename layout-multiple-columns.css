@@ -4,12 +4,6 @@
 /* CSS variables */
 :root {
   /* Brand colors */
-  --color-brand-twitter: #1d9bf0;
-  --color-brand-twitter-bg: #15202b;
-  --color-brand-twitter-dim: #8b98a5;
-  --color-brand-twitter-mud: #273340;
-  --color-brand-twitter-dark: #232543;
-  --color-brand-twitter-threaded-line: #425364;
   --color-brand-mastodon: #595aff;
   --color-brand-mastodon-links: #8c8dff;
   --color-brand-mastodon-bg: #1e2028;
@@ -2255,7 +2249,7 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
   background-color: transparent;
   border: 1;
   border-radius: 25%;
-  border-width: 3px;
+  border-width: 5px;
 
   /* It's inlined so we have to use !important */
   /* stylelint-disable-next-line */
