@@ -3,6 +3,7 @@
 TODO:
 * potential color improvements
 * switch nav/compose sides back to default
+* multi-column ui changes
 * mayhaps change very professional readme
 * ???
 * profit
