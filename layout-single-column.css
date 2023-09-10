@@ -3414,7 +3414,7 @@ body.embed .button.logo-button:hover,
 
 /* apply border radius only to pip placeholder */
 .picture-in-picture-placeholder {
-   border-radius: var(--vorder-radius);
+   border-radius: var(--border-radius);
 }
 
 /* Exception for your own profile media gallery */
