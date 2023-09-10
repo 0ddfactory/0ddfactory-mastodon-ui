@@ -3423,9 +3423,11 @@ body.embed .button.logo-button:hover,
    background: transparent;
 }
 
-/* apply border radius only to pip placeholder */
+/* apply border radius and margin to pip placeholder */
 .picture-in-picture-placeholder {
    border-radius: var(--border-radius);
+   margin-left: auto;
+   width: calc(100% - calc(var(--size-avatar) + var(--gap-default))) !important;
 }
 
 /* Exception for your own profile media gallery */
