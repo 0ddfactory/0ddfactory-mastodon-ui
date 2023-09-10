@@ -82,6 +82,8 @@
   --width-side-panel: 300px;
   --border-radius: 16px;
   --border-radius-badges: 4px;
+  --border-radius-compose: 20px 20px 0px 0px;
+  --border-radius-footer: 0px 0px 20px 20px;
   --badges-distance-from-edge: 12px;
 
   /* Misc */
@@ -690,6 +692,15 @@ body.layout-single-column {
 .layout-single-column .compose-form .compose-form__warning {
   background-color: var(--color-light-purple);
   color: var(--color-bg);
+}
+
+/* Add border radius to compose form */
+.compose-form__autosuggest-wrapper{
+   border-radius: var(--border-radius-compose);
+}
+
+.compose-form__buttons-wrapper{
+   border-radius: var(--border-radius-footer);
 }
 
 /* Content warning placeholder */
