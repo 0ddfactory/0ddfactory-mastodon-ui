@@ -426,6 +426,12 @@ body.layout-single-column {
   font-size: var(--font-size-12);
 }
 
+/* Account Roles */
+.layout-single-column .account__header__badges .account-role {
+  color: var(--color-brand-mastodon);
+  border-color: var(--color-brand-mastodon);
+}
+
 /* Line heights */
 .layout-single-column .reply-indicator__content,
 .layout-single-column .status__content {
