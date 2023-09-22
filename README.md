@@ -11,9 +11,8 @@ DONE:
 * Make floating video player header/footer transparent
 
 TODO:
-* potential color improvements
 * potentially change icons on navbar to be more consistent
-* multi-column ui changes
+* multi-column ui changes mayhaps
 * mayhaps change very professional readme
 * ???
 * profit (not really this is free lmao)
