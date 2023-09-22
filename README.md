@@ -1,5 +1,5 @@
 0ddfactory UI for Mastodon  
-The primary goal of this theme is to mimick the material you mastodon themes in the mobile app and its forks like megalodon.
+The primary goal of this theme is to mimick the material you mastodon themes in the mobile app and its forks like megalodon or make any other changes I may want for 0ddfactory.
 
 DONE:
 * Change color scheme to match neutral Material You colors.
