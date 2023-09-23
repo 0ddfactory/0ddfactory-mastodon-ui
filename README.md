@@ -17,7 +17,8 @@ TODO:
 * ???
 * profit (not really this is free lmao)
   
-![image](https://github.com/0ddfactory/0ddfactory-mastodon-ui/assets/25939455/a0b89a20-363a-4b2d-bba3-ce575fc35eac)
+![image](https://github.com/0ddfactory/0ddfactory-mastodon-ui/assets/25939455/0cb82bea-e2b1-4a2a-be01-1aecff8a6b79)
+
 
 
 
