@@ -1198,7 +1198,7 @@ body.embed .detailed-status__display-avatar > img,
 .layout-single-column .column > .scrollable .status__avatar img {
   background-color: var(--color-bg);
   border: 1;
-  border-radius: 20%;
+  border-radius: 100%;
   box-shadow: rgb(255 255 255 / 0.03) 0 0 2px inset;
 }
 
@@ -2332,7 +2332,7 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
 .layout-single-column .account__header__bar .avatar .account__avatar {
   background-color: transparent;
   border: 1;
-  border-radius: 25%;
+  border-radius: 100%;
   border-width: 3px;
   border-color: var(--color-brand-mastodon-bg);
 
